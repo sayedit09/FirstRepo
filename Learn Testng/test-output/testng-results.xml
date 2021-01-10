@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47" started-at="2018-03-24T09:08:06Z" finished-at="2018-03-24T09:08:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47" started-at="2018-03-24T09:08:06Z" finished-at="2018-03-24T09:08:06Z">
+      <class name="TestngTest.ParametersInTestngTest">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:TestngTest.ParametersInTestngTest@4f933fd1]" name="test1" duration-ms="10" started-at="2018-03-24T14:38:06Z" finished-at="2018-03-24T14:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["userNameOptional"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["passwordOptional"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- TestngTest.ParametersInTestngTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

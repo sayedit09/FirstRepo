@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Globussoft Test Automation suite">
+
+<test name="Checkout Feature Test"> <!-- Just example -->
+<!-- <classes>
+<class name="TestngTest.Allannotations"></class>
+</classes>
+</test>
+
+<test name="groupsTest">
+<groups>
+<run>
+<include name="regression"></include>
+</run>
+</groups>
+<classes>
+<class name="TestngTest.GroupTest"></class>
+</classes>
+</test>
+
+<test name="dependsOnTest">
+<classes>
+<class name="TestngTest.DependsOnTest"></class>
+</classes>
+</test>
+
+<parameter name="userName" value="userName123"></parameter>
+<parameter name="password" value="password123"></parameter>
+<test name="parametersTest">
+<classes>
+<class name="TestngTest.ParametersInTestng"></class>  we cannot run duplicate classes at a time ..Testng consider as a unique.
+if we want to run duplicate classes then we need to copy the same content in below and change the  testname only...then it will show duplicate classes also 
+<class name="TestngTest.ParametersInTestng"></class>
+</classes> -->
+
+<classes>
+ <class name="TestngTest.AllannotationsTest"/>
+  <!-- <class name="TestngTest.AssertExampleTest"/> 
+ <class name="TestngTest.AssertExample2Test"/>   --> 
+<class name="TestngTest.DependsOnTest"/> 
+ <class name="TestngTest.FirstTestngScriptTest"/> 
+<class name="TestngTest.GroupTest"/>
+<class name="TestngTest.InvocationCountTest"/>
+<class name="TestngTest.NaveenGoogleTest"/>
+  <!-- <class name="TestngTest.ParametersInTestngTest"/>   -->
+ <class name="TestngTest.SoftAndHardAssert"/> 
+
+</classes>
+
+
+</test>
+</suite>

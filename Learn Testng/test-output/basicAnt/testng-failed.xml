@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [basicAnt]">
+  <parameter name="password" value="password123"/>
+  <parameter name="userName" value="userName123"/>
+  <test name="dependsOnTest(failed)">
+    <classes>
+      <class name="TestngTest.DependsOnTest">
+        <methods>
+          <include name="login"/>
+          <include name="test1"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- TestngTest.DependsOnTest -->
+    </classes>
+  </test> <!-- dependsOnTest(failed) -->
+</suite> <!-- Failed suite [basicAnt] -->

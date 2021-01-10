@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DemoXmlFileCreation]">
+  <test name="demoxml(failed)">
+    <classes>
+      <class name="TestngTest.FirstTestngScript">
+        <methods>
+          <include name="loginApplication"/>
+        </methods>
+      </class> <!-- TestngTest.FirstTestngScript -->
+    </classes>
+  </test> <!-- demoxml(failed) -->
+</suite> <!-- Failed suite [DemoXmlFileCreation] -->
