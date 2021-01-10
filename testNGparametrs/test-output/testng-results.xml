@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PhpTravels Test Automation suite" duration-ms="15812" started-at="2018-03-26T11:09:16Z" finished-at="2018-03-26T11:09:32Z">
+    <groups>
+    </groups>
+    <test name="homepage Feature Test" duration-ms="15812" started-at="2018-03-26T11:09:16Z" finished-at="2018-03-26T11:09:32Z">
+      <class name="com.parameters.ParametersTest">
+        <test-method status="PASS" signature="webLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.parameters.ParametersTest@675d3402]" name="webLogin" duration-ms="15786" started-at="2018-03-26T16:39:16Z" finished-at="2018-03-26T16:39:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://phptravels.com/demo/]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sarfarazhussain@globussoft.in]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SShu@4250]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogin -->
+      </class> <!-- com.parameters.ParametersTest -->
+    </test> <!-- homepage Feature Test -->
+  </suite> <!-- PhpTravels Test Automation suite -->
+</testng-results>

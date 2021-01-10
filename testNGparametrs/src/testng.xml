@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="PhpTravels Test Automation suite">
+<test name="homepage Feature Test"> <!-- Just example -->
+
+<parameter name="env" value="QA"></parameter> <!-- define which environment we are working like dev,QA ,production environment -->
+
+<!-- this env variable is used when you are running test suite on different environments like dev,QA,stg. Inside the test method
+ u can write one if else condition on the basis of env value coming from testng XML file and Launch the respective url.
+  If it's dev then launch dev url. Else if QA then launch QA url.﻿ -->
+
+<parameter name="browser" value="chrome"/>
+
+<parameter name="url" value="https://phptravels.com/demo/"/>
+<parameter name="emailid" value="sarfarazhussain@globussoft.in"/>
+<parameter name="password" value="SShu@4250"/>
+
+
+<classes>
+<class name="com.parameters.ParametersTest"></class>
+
+</classes>
+
+
+
+</test>
+</suite>
